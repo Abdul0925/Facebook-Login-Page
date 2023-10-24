@@ -12,8 +12,15 @@
 body {
   background-color: #f0f2f5;
   text-align: center;
+  height: 100vh;
   /* justify-content: center; */
 }
+
+#logo{
+  height: 100px;
+}
+
+
 
 p[tag="heading"] {
   font-weight: bold;
@@ -52,9 +59,11 @@ a.xyz:hover {
 .main {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 450px;
   /* align-items: center; */
 }
+
+
 
 input[id="username"] {
   /* margin: 10px 100px 10px 100px; */
@@ -130,7 +139,7 @@ footer {
 }
 .footer {
   
-  
+  height: 20vh;
   padding: 55px;
   
   /* padding: 70px 0; */
