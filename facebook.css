@@ -1,0 +1,208 @@
+.container {
+  width: 400px;
+  height: 300px;
+  padding: 8px;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(159, 159, 159, 0.2);
+  font-family: Verdana, sans-serif;
+  background-color: white;
+  display: block;
+}
+body {
+  background-color: #f0f2f5;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+p[tag="heading"] {
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 45px;
+  margin: 50px 5px 10px 5px;
+  color: rgb(14, 94, 255);
+}
+
+.ltf {
+  margin: 10px 10px 10px 10px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+a.xyz {
+  text-shadow: none;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 14px Arial, Helvetica, sans-serif;
+  font-style: inherit;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: white;
+  color: #1877f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+a.xyz:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  /* align-items: center; */
+}
+
+input[id="username"] {
+  /* margin: 10px 100px 10px 100px; */
+  /* padding : 10px 100px 10px 100px; */
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.573);
+  display: inline-block;
+  width: 90%;
+  padding: 18px 10px;
+  margin: 8px 0;
+  outline: none;
+}
+input[id="username"]:focus::placeholder {
+  color: rgb(183, 183, 183);
+}
+
+input[id="password"] {
+  /* margin: 10px 100px 10px 100px; */
+  /* padding : 10px 100px 10px 100px; */
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.573);
+  display: inline-block;
+  width: 90%;
+  padding: 18px 10px;
+  margin: 8px 0;
+  outline: none;
+}
+
+input[id="password"]:focus::placeholder {
+  color: rgb(183, 183, 183);
+}
+
+input[id="login"] {
+  /* margin: 10px 100px 10px 100px; */
+  /* padding : 10px 100px 10px 100px; */
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.573);
+  display: inline-block;
+  width: 380px;
+  padding: 12px 120px 15px;
+  margin: 8px 0;
+  background-color: rgba(25, 119, 240, 250);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+input[id="login"]:hover {
+  background-color: rgba(20, 105, 243, 255);
+  text-align: center;
+}
+
+::placeholder {
+
+  text-align: left;
+  font-size: larger;
+  
+}
+
+a{
+  font-family: 12px Arial, Helvetica, sans-serif;
+  color: #8a8d91 ;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+footer {
+  height: max-content;
+  background-color: white;
+  text-align-last: center;
+  
+}
+.footer {
+  
+  
+  padding: 55px;
+  
+  /* padding: 70px 0; */
+}
+/* ul.services {
+  list-style: none;
+  margin: 200px  ;
+  padding: 10px ;
+  text-align: left; 
+  white-space: nowrap;
+  background-color: antiquewhite;
+}
+ul.lang{
+  list-style: none;
+  margin: 200px;
+  padding: 10px ;
+  background-color: antiquewhite;
+  text-align: left;  */
+  /* display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footerlang{
+  padding: 1px;
+  margin: 0;
+  display: block;
+}
+.footerservices{
+  margin: 0%;
+  background-color: aqua;
+ 
+} */
+li {
+  vertical-align: top;
+  padding: 0px 0px 0px 20px;
+  display: inline;
+  
+
+}
+li :hover{
+  text-decoration:  underline;
+}
+
+.contentcurve {
+  border-bottom: 1px solid black;
+  display: inline;
+}
+hr{
+   width: 1300px;
+   display: flex;
+}
+ul.services{
+  
+  
+  margin: 0px 0px 0px -20px;
+}
+ul.lang{
+  text-align: left;
+  margin: 0px 0px 0px -20px;
+}
+
+.showHideBtn{
+
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+  text-align-last: center;
+  background-color: #1876f200;
+  /* position: relative; */
+  position: absolute;
+    top: 266px;
+    left: 890px;
+  display: none;
+  border: none;
+}
