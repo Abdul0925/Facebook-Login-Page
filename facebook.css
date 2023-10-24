@@ -16,6 +16,23 @@ body {
   /* justify-content: center; */
 }
 
+#bothside{
+  display: flex;
+  padding-bottom: 20px;
+}
+#leftside{
+  padding-top: 150px;
+  width: 50%;
+}
+#rightside{
+  padding-top: 150px;
+  padding-left: 100px;
+  /* width: 30%; */
+  display: flex;
+  justify-content: center;
+}
+
+
 #logo{
   height: 100px;
 }
