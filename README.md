@@ -7,7 +7,7 @@ Facebook Login Page Interface Created with HTML and CSS
 
 ## Note
 
-This repository my first HTML and CSS project. I will continue to create more projects like this.
+This repository is my first HTML and CSS project. I will continue to create more projects like this.
 ## Getting Started
 
 1. Clone the Repo
